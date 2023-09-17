@@ -1,0 +1,4 @@
+cmake \
+  -DCMAKE_TOOLCHAIN_FILE="${MIYOODEV}/share/miyoo.cmake" \
+  -DCMAKE_INSTALL_PREFIX="${MIYOODEV}" \
+  "$@"

@@ -1,0 +1,11 @@
+g++-arm-linux-gnueabi
+gcc-arm-linux-gnueabi
+
+
+DirectFB - Compile Flags
+
+miyoo-cmake -DENABLE_SYSTEM_X11=OFF -DENABLE_WAYLAND=OFF ..
+    Requires libfreetype
+
+    FreeType - miyoo-cmake
+    
